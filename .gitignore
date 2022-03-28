@@ -4,3 +4,6 @@
 *.jar
 *.war
 *.ear
+.idea/
+target/
+consul-distributed-lock.iml

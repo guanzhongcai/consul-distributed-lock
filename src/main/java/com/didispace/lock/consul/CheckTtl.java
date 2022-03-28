@@ -37,7 +37,7 @@ public class CheckTtl {
         check.setId(checkId);
         check.setName(checkId);
         check.setTtl("30s");
-        check.setInterval("10s");
+//        check.setInterval("10s");
         check.setTimeout("10s");
         this.consulClient.agentCheckRegister(check);
     }
